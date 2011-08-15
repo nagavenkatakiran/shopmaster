@@ -10,8 +10,8 @@
 <body>
 <br>
 <form action="CreateProduct.action" method="post"  name="listProducts" id="listProducts">
- <table width="700" border="0" align="center" cellpadding="2" cellspacing="1" class="text">
-  <tr align="center" id="listTableHeader"> 
+ <table width="700" border="0" align="left" cellpadding="2" cellspacing="1" class="text">
+  <tr align="left" id="listTableHeader"> 
    <td width="75">Product ID</td>
    <td width="75">Description</td>
    <td width="75">Status</td>
@@ -33,12 +33,12 @@
   </s:iterator>
   <tr><td colspan="7">&nbsp;</td></tr>
   <tr> 
-   <td colspan="7" align="right"><input name="btnAddProduct" type="submit" id="btnAddProduct" value="Add Product" class="box"></td>
+   <td colspan="7" align="left"><input name="btnAddProduct" type="submit" id="btnAddProduct" value="Add Product" class="box"></td>
   </tr>
  </table>
  <p>&nbsp;</p>
-</form>
+</form><br style="clear: both;"/><br/>
 <p>&nbsp;</p>
-<p><small>&copy; 2010 Shopping Cart Application&nbsp;</small></p>
+<p><small>&copy; 2011 Shopping Cart Application&nbsp;</small></p>
 </body>
 </html>

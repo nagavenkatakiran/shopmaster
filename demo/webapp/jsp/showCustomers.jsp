@@ -10,8 +10,8 @@
 <body>
 <br>
 <form action="" method="post"  name="" id="">
- <table width="700" border="0" align="center" cellpadding="2" cellspacing="1" class="text">
-  <tr align="center" id="listTableHeader"> 
+ <table width="700" border="0" align="left" cellpadding="2" cellspacing="1" class="text">
+  <tr align="left" id="listTableHeader"> 
    <td width="75">Username</td>
    <td width="75">Password</td>
    <td width="75">Shipping Address</td>
@@ -35,12 +35,12 @@
   </s:iterator>
   <tr><td colspan="8">&nbsp;</td></tr>
   <tr> 
-   <td colspan="8" align="right"><input name="btnAddCustomer" type="button" id="btnAddCustomer" value="Add Customer" class="box"></td>
+   <td colspan="8" align="left"><input name="btnAddCustomer" type="button" id="btnAddCustomer" value="Add Customer" class="box"></td>
   </tr>
  </table>
  <p>&nbsp;</p>
-</form>
+</form><br style="clear: both;"/><br/>
 <p>&nbsp;</p>
-<p><small>&copy; 2010 Shopping Cart Application&nbsp;</small></p>
+<p><small>&copy; 2011 Shopping Cart Application&nbsp;</small></p>
 </body>
 </html>
