@@ -8,8 +8,9 @@
 <link href="css/admin.css" rel="stylesheet" type="text/css">
 </head>
 <body style="text-align: left;">
+<p style="text-align: center;"><s:actionerror /></p>
 <form action="CreateProduct.action" method="post">
-  <table width="800" border="0" align="center" cellpadding="5" cellspacing="1" class="entryTable">
+  <table width="800" border="0" align="left" cellpadding="5" cellspacing="1" class="entryTable">
   <tr> 
    <td width="150" class="label">Product ID</td>
    <td class="content"><input name="productID" type="text" class="box" id="productID" size="50" maxlength="100" value="" /></td>
@@ -32,7 +33,7 @@
    <td class="content"><input name="unitPrice" type="text" id="unitPrice" size="10" maxlength="7" class="box" value="" /> </td>
   </tr>
  </table><br style="clear: both;"/><br/>
- <p align="center"> 
+ <p align="left"> 
   <input name="command" type="submit" id="btnAddProduct" value="Add Product" class="box" />
   &nbsp;&nbsp;
   <input name="btnCancel" type="button" id="btnCancel" value="Cancel" onClick="window.location.href='ShowProducts.action';" class="box" />  
