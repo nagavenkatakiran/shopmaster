@@ -13,5 +13,6 @@
 	Product's status: <b><s:text name="status" /></b><br />
 	Product's quantity: <b><s:text name="quantity" /></b><br />
 	Product's unit price: <b><s:text name="unitPrice" /></b><br />
+	<p><a href="ShowProducts.action">back to Products</a></p>
 </body>
 </html>

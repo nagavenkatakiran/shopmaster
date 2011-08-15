@@ -25,18 +25,6 @@ public class ShowAllProductsAction extends ActionSupport {
 	@Override
 	public String execute() throws Exception {
 		ProductService productService = new ProductServiceImpl();
-		Product newProduct = new Product("1", "Computer Hardware", "in-stock", 2L, 24.99f);
-		Product existingProduct = productService.getProduct(newProduct.getProductID());
-		if (existingProduct == null) {
-			productService.createProduct(newProduct);
-		}
-		
-		newProduct = new Product("2", "Television HD", "out-of-stock", 1L, 95.06f);
-		existingProduct = productService.getProduct(newProduct.getProductID());
-		if (existingProduct == null) {
-			productService.createProduct(newProduct);
-		}
-		
 		Collection<Product> existingProducts = productService.getProducts();
 		products = new LinkedList<Product>();
 		for (Product product : existingProducts) {

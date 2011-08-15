@@ -8,7 +8,7 @@
 <link href="css/admin.css" rel="stylesheet" type="text/css">
 </head>
 <body style="text-align: left;">
-<form action="CreateProductResult.action" method="post" enctype="" name="" id="">
+<form action="CreateProductResult.action" method="post">
   <table width="800" border="0" align="center" cellpadding="5" cellspacing="1" class="entryTable">
   <tr> 
    <td width="150" class="label">Product ID</td>
